@@ -22,5 +22,9 @@
         </property>
     </bean>
     
+    <bean id="productDAO" class="com.hungnc.dao.ProductDAO" />
+    <bean id="productService" class="com.hungnc.service.ProductService" />
+    
+    
  
 </beans>
