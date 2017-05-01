@@ -25,6 +25,6 @@
     <bean id="productDAO" class="com.hungnc.dao.ProductDAO" />
     <bean id="productService" class="com.hungnc.service.ProductService" />
     
-    
- 
+    <bean id="categoryDAO" class="com.hungnc.dao.CategoryDAO" />
+ 	<bean id="categoryService" class="com.hungnc.service.CategoryService" />
 </beans>

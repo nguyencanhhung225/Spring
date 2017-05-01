@@ -14,8 +14,8 @@ public class ProductService extends AbstractCRUD<Product> {
 	ProductDAO productDAO;
 	
 	@Override
-	public List<Product> products() {
-		return productDAO.products();
+	public List<Product> getAll() {
+		return productDAO.getAll();
 	}
 
 	@Override
